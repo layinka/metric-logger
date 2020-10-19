@@ -9,7 +9,7 @@ router.get('/:key/sum', function(req, res, next) {
   let keyString = req.params.key;
   if(!metricLogs.has(keyString)){
     return res.status(404).send({ success: false, message: 'Key not found'});
-  }
+  } 
 
   let arr = metricLogs.get(keyString);
   
