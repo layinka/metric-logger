@@ -5,10 +5,10 @@ npm i
 
 # Windows
 
-set DEBUG=myapp:* & npm start
+npm run start
 
 # Linux
- DEBUG=myapp:* npm start
+npm run start
 
 # Access Site
 http://localhost:3000/
